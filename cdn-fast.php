@@ -1,5 +1,5 @@
 <?php
-	/**"use shortcodes to add stylesheets and scripts to page";
+	/**"use shortcodes to add stylesheets and scripts to page"
 	 * Plugin Name: cdn fast delivery
 	 * Description: adds stylesheets and scripts to pages and posts via shortcodes
 	 * version 1.0
