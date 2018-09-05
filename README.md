@@ -11,3 +11,9 @@ to add bootstrap js
 
 to add jquery
 [jquery]
+
+to add foundation css
+[foundation-css]
+
+to add foundation js
+[foundation-js]
