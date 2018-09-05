@@ -22,3 +22,15 @@
 	}
 
 	add_shortcode('jquery', 'add_jquery');
+
+	function add_foundation_css() {
+		wp_enqueue_style('foundation-css', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css');
+	}
+
+	add_shortcode('foundation-css', 'add_foundation_css');
+
+	function add_foundation_js() {
+		wp_enqueue_script('foundation-js', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js');
+	}
+
+	add_shortcode('foundation-js', 'add_foundation_js');
