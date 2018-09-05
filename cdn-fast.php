@@ -34,3 +34,10 @@
 	}
 
 	add_shortcode('foundation-js', 'add_foundation_js');
+
+
+	function add_devicons_css() {
+		wp_enqueue_script('devicon-css', 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css');
+	}
+
+	add_shortcode('devicon-css', 'add_devicons_css');
