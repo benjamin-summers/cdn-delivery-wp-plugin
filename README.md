@@ -1,5 +1,5 @@
 # cdn-delivery-wp-plugin
-use shortcodes to add a variety of stylesheets and scripts to your pages and posts
+use these shortcodes to add a variety of stylesheets and scripts to your pages and posts
 
 this is version 1.0
 
@@ -17,3 +17,9 @@ to add foundation css
 
 to add foundation js
 [foundation-js]
+
+to add devicon css
+[devicon-css]
+
+to add font awesome css
+[fontAwesome-css]
