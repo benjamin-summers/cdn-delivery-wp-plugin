@@ -41,3 +41,9 @@
 	}
 
 	add_shortcode('devicon-css', 'add_devicons_css');
+
+	function add_fontAwesome_css() {
+		wp_enqueue_script('fontAwesome-css', 'https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+	}
+
+	add_shortcode('fontAwesome-css', 'add_fontAwesome_css');
