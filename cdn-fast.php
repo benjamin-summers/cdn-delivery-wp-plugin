@@ -14,11 +14,35 @@
 	function create_menu() {
 		?>
 		<style>
-			div.cdn-fast-bootstrap {
+            div.cdn-fast-header {
+                text-align: center;
+                width: 100%;
+                line-height: 50px;
+                background: #bfbfbf;
+            }
+            div.cdn-fast-moreInfo {
+                text-align: center;
+            }
+			div.cdn-fast-main {
 				text-align: center;
 			}
+            div.cdn-fast-footer {
+                text-align: center;
+            }
 		</style>
-		<div class="cdn-fast-bootstrap">
+        <div class="cdn-fast-header">
+            <h1>This Plugin Is great For just adding a css library to a single page<br>
+             or if you want to get even more specific a single post</h1>
+        </div>
+        <div class="cdn-fast-moreInfo">
+            <h2>This plugin is also well suited for use with Page builders</h2>
+            <h3>It goes great with Bold Page builder Its new on the scene</h3>
+            <h4>but in my opinion its far better than elementor lite expecially considering it is free</h4>
+            <h3><a href="https://wordpress.org/plugins/bold-page-builder/">Bold Page Builder</a></h3>
+        </div>
+        <hr>
+        <hr>
+		<div class="cdn-fast-main">
 			<h1>Bootstrap</h1>
 			<h3>Add Bootstrap css To any Page or to just a Post</h3>
 			<h4>add the shortcode <code>[bootstrap-css]</code></h4>
@@ -36,6 +60,10 @@
 			<h3>Add Devicons css to any single Post or Page</h3>
 			<h4>add the shortcode <code>[devicon-css]</code></h4>
 		</div>
+        <div class="cdn-fast-footer">
+            <p>to check out more documentation on this plugin and to see more about me the author check out the link below</p>
+            <p><a href="https://github.com/benjamin-summers/cdn-delivery-wp-plugin">CDN FAST</a></p>
+        </div>
 	<?php
 	}
 
