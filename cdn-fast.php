@@ -5,6 +5,40 @@
 	 * version 1.0
 	 **/
 
+	function add_menu() {
+		add_menu_page('CDN FAST DELIVERY', 'CDN FAST', 'manage_options', 'cdn-fast', 'create_menu', '', 200);
+	}
+
+	add_action('admin_menu', 'add_menu');
+
+	function create_menu() {
+		?>
+		<style>
+			div.cdn-fast-bootstrap {
+				text-align: center;
+			}
+		</style>
+		<div class="cdn-fast-bootstrap">
+			<h1>Bootstrap</h1>
+			<h3>Add Bootstrap css To any Page or to just a Post</h3>
+			<h4>add the shortcode <code>[bootstrap-css]</code></h4>
+			<h3>Add Bootstrap Js To any Page or to just a Post</h3>
+			<h4>Add the shortcode <code>[bootstrap-js]</code></h4>
+			<h1>Jquery</h1>
+			<h3>Add Jquery min to any Page or to just a Post</h3>
+			<h4>Add the shortcode <code>[jquery]</code></h4>
+			<h1>Foundation</h1>
+			<h3>Add Foundation Css To any Page or to just a Post</h3>
+			<h4>Add the shortcode <code>[foundation-css]</code></h4>
+			<h3>Add Foundation Js to any Page or to just a Post</h3>
+			<h4>Add the shortcode <code>[foundation-js]</code></h4>
+			<h1>Devicons Css</h1>
+			<h3>Add Devicons css to any single Post or Page</h3>
+			<h4>add the shortcode <code>[devicon-css]</code></h4>
+		</div>
+	<?php
+	}
+
 	function add_bootstrap_css() {
 		wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
 	}
